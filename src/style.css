@@ -1,0 +1,38 @@
+:root {
+  --heading-color: #9871f4;
+  --sub-heading-color: #ef5e9a;
+  --background-color: #6ed5d2;
+  --box-shadow-color: 1px solid green;
+  --gradient: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+  background: var(--gradient);
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 34px;
+  line-height: 48px;
+  color: var(--heading-color);
+}
+
+h1 h2,
+h3 {
+  color: var(--sub-heading-color);
+}
+p {
+  border: var(--box-shadow-color);
+  background: var(--background-color);
+  padding: 20px;
+}
+
+.logo {
+  display: block;
+  margin: 30px auto;
+  width: 150px;
+}
